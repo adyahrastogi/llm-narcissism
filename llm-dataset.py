@@ -8,7 +8,7 @@ import tqdm
 
 logging.basicConfig(filename='llm-dataset-errors.log', level=logging.ERROR)
 
-CHECKPOINT_FILE = "llm_responses_checkpoint.csv"
+CHECKPOINT_FILE = "llm_responses_checkpoint_branch2.csv"
 MAX_RETRIES = 3
 RETRY_DELAY = 5
 NUM_THREADS = 3

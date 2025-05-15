@@ -9,5 +9,5 @@ df = ds["train"].to_pandas()
 shuffled_df = df.sample(frac=1, random_state=42).reset_index(drop=True)
 
 # Save locally
-shuffled_df.to_csv("shuffled_hc3_dataset.csv", index=False)
+shuffled_df.to_csv("shuffled_hc3_dataset2.csv", index=False)
 print(f"Saved shuffled dataset with {len(shuffled_df)} rows.")
