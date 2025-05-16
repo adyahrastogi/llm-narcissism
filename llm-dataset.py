@@ -15,7 +15,7 @@ NUM_THREADS = 3
 MODELS = ["deepseek-v2:latest", "llama3.2:latest", "gemma3:12b"]
 MODEL_NAMES = ["deepseek-v2", "llama-3.2", "gemma3-12b"]
 
-num_questions = 2000
+num_questions = 10000
 
 def load_data():
     try:
